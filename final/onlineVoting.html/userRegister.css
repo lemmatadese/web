@@ -1,0 +1,93 @@
+
+.div{
+    border-radius: 5px;
+ 
+    padding: 20px;
+  }
+ 
+
+#userRegister{
+    text-align: right;
+}
+body{
+  background-image: url(reg.gif);
+  background-repeat: no-repeat;
+    
+  background-size: 50%;
+ 
+}
+
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=date], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=radio], select {
+    width: 5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=button] {
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=button]:hover {
+    background-color: #a04560;
+  }
+  input[type=text]:hover {
+    background-color: #45a059;
+  }
+  input[type=email]:hover {
+    background-color: #45a05c;
+  }
+  input[type=password]:hover {
+    background-color: #45a045;
+  }
+  input[type=radio]:hover {
+    background-color: #45a054;
+  }
+  input[type=date]:hover {
+    background-color: #45a060;
+  }

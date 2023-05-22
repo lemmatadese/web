@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>add candidate</title>
+    <link rel="stylesheet" href="addCandidate.css">
+</head>
+<body>
+    <h1>Add candidate</h1>
+    <div class="div">
+        <form action="add">
+            
+            <label for="election">Select Election</label>
+            <select name="ElectionType" id="election">
+                <option value="pmElection">PM Election</option>
+                <option value="president">President</option>
+               
+              </select>
+              <br><br>
+              <i class="fa fa-user" style="font-size:36px"></i>
+            <label for="candidateName" id="cdname">Candidate Name</label>
+            <input type="text" name="candidateName" id="candidateName"><br><br>
+       
+            <label for="partyName">Party Name</label>
+            <input type="text" name="partyName" id="partyName"><br><br>
+            <i class="fa fa-home" style="font-size:36px"></i>
+            <label for="address">Address</label>
+            <input type="text" name="Address" id="address"><br><br>
+            <i class="fa fa-phone" style="font-size:36px"></i>
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text" name="PhoneNumber" id="PhoneNumber"><br><br>
+            <i class="fa fa-image" style="font-size:36px"></i>
+            <label for="candidateImage">Candidate Image</label>
+            <input type="file" name="candidateImage" id="candidateImage"><br><br>
+            <input type="submit" id="btn">
+            
+        </form>
+    </div>
+  
+</body>
+</html>
